@@ -27,6 +27,6 @@ do
 		elif [[ $line = "2F234454-CF6D-4A0F-ADF2-F4911BA9FFA9 0 1"* ]]; then
 		  play ./05conclusion.mp3   
 		else
-		sudo beacon scan -A -b -d 4| ./test3.sh
+		sudo beacon scan -A -b -d 4| ./playSound.sh
 	fi
 done
