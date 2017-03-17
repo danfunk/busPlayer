@@ -21,7 +21,6 @@ The service will start automatically when the system is booted up.  If needed yo
 * Make sure that scan.sh and playSound.sh are executable
 
      chmod 755 scan.sh
-     chmod 755 paySound.sh
 
 * Instruct the OS to start the busplayer script on startup
 
